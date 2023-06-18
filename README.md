@@ -13,7 +13,7 @@ No installation needed
 
 Press button and follow instructions
 
-![alt text](assets/images/screenshot3.png)
+![password generator screenshot](assets/images/screenshot3.png)
 
 ## Credits
 
