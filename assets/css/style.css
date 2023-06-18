@@ -1,3 +1,4 @@
+/* general  */
 *,
 *::before,
 *::after {
@@ -17,6 +18,7 @@ body {
   background-color: #f9fbfd;
 }
 
+/* all content  */
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -30,6 +32,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/* part with password window and button  */
 .card {
   text-align: center;
   background-color: hsl(0, 0%, 100%);
@@ -51,10 +54,34 @@ header {
   height: 2px;
 }
 
+/* password window  */
 .card-body {
   min-height: 100px;
 }
 
+#password {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 85px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px dashed #c0c7cf;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+}
+
+
+/* button  */
 .card-footer {
   text-align: center;
 }
@@ -98,27 +125,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  display: block;
-  width: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 85px;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
-  resize: none;
-  overflow: hidden;
-}
-
+/* size changing  */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
